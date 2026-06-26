@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "UpdateEmployee",
+            "request": "launch",
+            "mainClass": "employee.management.system.UpdateEmployee",
+            "projectName": "EMPLOYEE MANAGEMENT SYSTEM_d1fd4072"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AddEmployee",
+            "request": "launch",
+            "mainClass": "employee.management.system.AddEmployee",
+            "projectName": "EMPLOYEE MANAGEMENT SYSTEM_d1fd4072"
+        },
+        {
+            "type": "java",
+            "name": "ExportEmployee",
+            "request": "launch",
+            "mainClass": "employee.management.system.ExportEmployee",
+            "projectName": "EMPLOYEE MANAGEMENT SYSTEM_d1fd4072"
+        },
+        {
+            "type": "java",
+            "name": "Home",
+            "request": "launch",
+            "mainClass": "employee.management.system.Home",
+            "projectName": "EMPLOYEE MANAGEMENT SYSTEM_d1fd4072"
+        },
+        {
+            "type": "java",
+            "name": "Login",
+            "request": "launch",
+            "mainClass": "employee.management.system.Login",
+            "projectName": "EMPLOYEE MANAGEMENT SYSTEM_d1fd4072"
+        },
+        {
+            "type": "java",
+            "name": "RemoveEmployee",
+            "request": "launch",
+            "mainClass": "employee.management.system.RemoveEmployee",
+            "projectName": "EMPLOYEE MANAGEMENT SYSTEM_d1fd4072"
+        },
+        {
+            "type": "java",
+            "name": "Splash",
+            "request": "launch",
+            "mainClass": "employee.management.system.Splash",
+            "projectName": "EMPLOYEE MANAGEMENT SYSTEM_d1fd4072"
+        },
+        {
+            "type": "java",
+            "name": "ViewEmployee",
+            "request": "launch",
+            "mainClass": "employee.management.system.ViewEmployee",
+            "projectName": "EMPLOYEE MANAGEMENT SYSTEM_d1fd4072"
+        }
+    ]
+}

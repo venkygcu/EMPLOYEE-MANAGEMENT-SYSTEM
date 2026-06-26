@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f4c81, #1f6fb2);
+    color: #14213d;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.panel, .card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    padding: 24px;
+}
+
+.panel {
+    max-width: 420px;
+    margin: 80px auto;
+}
+
+.hidden {
+    display: none;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+input, button {
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+button {
+    cursor: pointer;
+    background: #0f4c81;
+    color: white;
+    border: none;
+}
+
+button.secondary {
+    background: #6b7280;
+}
+
+form input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.search-box {
+    display: flex;
+    gap: 8px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 24px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.message {
+    margin-top: 10px;
+    min-height: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 900px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
